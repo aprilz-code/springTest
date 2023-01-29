@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.LongAdder;
 
 /**
  * @Classname CasDemo
- * @Description https://note.losey.top/#/./%E6%A0%A1%E6%8B%9B%E9%9D%A2%E8%AF%95/JUC/2_%E8%B0%88%E8%B0%88CAS/5_CAS%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86/README
+ * @Description https://note.losey.top/#/JUC/2_%E8%B0%88%E8%B0%88CAS/5_CAS%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86/README
  * @Date 2022/2/26 13:08
  * @Created by white
  */
