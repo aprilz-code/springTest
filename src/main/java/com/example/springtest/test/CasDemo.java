@@ -14,7 +14,7 @@ public class CasDemo {
     private   static  AtomicInteger atomicInteger = new AtomicInteger(5);
 
     public static void main(String[] args) throws InterruptedException {
-      Thread.sleep(Integer.MAX_VALUE);
+      //Thread.sleep(Integer.MAX_VALUE);
 
         /**
          * 一个是期望值，一个是更新值，但期望值和原来的值相同时，才能够更改
