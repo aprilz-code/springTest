@@ -26,7 +26,7 @@ public class TestHashMap {
         //随机一个index
         int index = (int) (Math.random() * keys.length);
 
-        System.out.println(values[index]);
+        System.out.println(values[25]);
 
         //取出随便index下标 hashmap里的值
         System.out.println(map.get(index));
