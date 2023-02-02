@@ -1,5 +1,7 @@
 package com.example.springtest.test;
 
+import org.springframework.util.CollectionUtils;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -49,7 +51,6 @@ public class TestListAndArray {
         for (String s1 : list2) {
             System.out.println("array to java.util.Arrays.ArrayList ==" + s1);
         }
-
 
         //方法二
         //要使用util.ArrayList

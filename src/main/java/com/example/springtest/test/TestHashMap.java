@@ -1,8 +1,6 @@
 package com.example.springtest.test;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @Classname TestHashMap
@@ -62,6 +60,19 @@ public class TestHashMap {
         map.forEach((key, value) -> {
             System.out.println("key= " + key + " and value= " + value);
         });
+
+
+        //可查出是无序的，改用LinkedHashMap或者TreeMap,则为有序的.
+        HashMap<String, String> t = new HashMap<>();
+        t.put("ID","1");
+        t.put("Name","the name");
+        t.put("Sort","the sort");
+        t.put("Type","the type");
+
+
+        for (String key : t.keySet()) {
+            System.out.println(key +":" + t.get(key));
+        }
 
     }
 }
