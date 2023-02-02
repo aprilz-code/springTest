@@ -32,7 +32,7 @@ public class TestHashMap {
         System.out.println(map.get(index));
 
 
-        //第一种：普遍使用，二次取值
+        //第一种： 获取到key，二次取值
         System.out.println("通过Map.keySet遍历key和value：");
         for (Integer key : map.keySet()) {
             System.out.println("key= " + key + " and value= " + map.get(key));
@@ -46,7 +46,7 @@ public class TestHashMap {
             System.out.println("key= " + entry.getKey() + " and value= " + entry.getValue());
         }
 
-        //第三种：
+        //第三种：普遍
         System.out.println("通过Map.entrySet遍历key和value");
         for (Map.Entry<Integer, String> entry : map.entrySet()) {
             System.out.println("key= " + entry.getKey() + " and value= " + entry.getValue());
@@ -57,7 +57,7 @@ public class TestHashMap {
         for (String v : map.values()) {
             System.out.println("value= " + v);
         }
-        //第五种 lamada方式，经过测试，lamada方式虽然语法简便，但是不涉及sql查询时，性能略差
+        //第五种 lamada方式，经过测试，lamada方式虽然语法简便，但是循环内不涉及IO操作时，性能略差
 
         map.forEach((key, value) -> {
             System.out.println("key= " + key + " and value= " + value);
