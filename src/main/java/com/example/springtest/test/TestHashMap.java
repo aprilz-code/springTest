@@ -62,7 +62,7 @@ public class TestHashMap {
         });
 
 
-        //可查出是无序的，改用LinkedHashMap或者TreeMap,则为有序的.
+        //可查出是无序的,改用LinkedHashMap则为有序的,TreeMap为保持字典序
         HashMap<String, String> t = new HashMap<>();
         t.put("ID","1");
         t.put("Name","the name");
